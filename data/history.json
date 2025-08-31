@@ -1,0 +1,142 @@
+{
+  "site": {
+    "name": "Connected Pakistan",
+    "tagline": "Overview — History of Pakistan’s Internet",
+    "baseUrl": "/"
+  },
+
+  "nav": {
+    "links": [
+      { "label": "About", "href": "/about.html" },
+      { "label": "History", "href": "/history.html" },
+      { "label": "Milestones", "href": "/milestones.html" }
+    ]
+  },
+
+  "hero": {
+    "kicker": "2005 → 2025",
+    "titleTop": "From Copper Wires",
+    "titleBottom": "To Cloud Highways",
+
+    "lead": "From the SMW4 cable (2005) and IMEWE (2010) to the 2014 3G/4G auction, AAE-1 in 2017, PEACE in 2022, and a 5G-ready 2025.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fibre_optic_cables_3.jpg",
+      "alt": "Close-up of fibre-optic strands",
+      "credit": "Wikimedia Commons (CC BY-SA 4.0)"
+    }
+  },
+
+  "kpis": [
+    { "label": "Internet users (Jan 2025)", "value": 116, "unit": "m" },
+    { "label": "Penetration (Jan 2025)", "value": 45.7, "unit": "%" },
+    { "label": "Broadband subscribers <br> (Sep 2024)", "value": 142.3, "unit": "m" },
+    { "label": "International cable systems (SMW4, IMEWE, AAE-1, PEACE)", "value": 4, "unit": "cables" }
+
+  ],
+
+  "timeline": [
+    {
+      "year": "2005",
+      "title": "SEA-ME-WE 4 ready for service",
+      "text": "Primary subsea route to Europe–Middle East–Asia with Pakistan landings; later capacity upgrades.",
+      "sourceUrl": "https://www.submarinenetworks.com/en/systems/asia-europe-africa/smw4",
+      "side": "left"
+    },
+    {
+      "year": "2010",
+      "title": "IMEWE goes commercial",
+      "text": "Second high-capacity system adds diversity; PTCL landings strengthen resilience.",
+      "sourceUrl": "https://www.submarinenetworks.com/en/systems/asia-europe-africa/imewe",
+      "side": "right"
+    },
+    {
+      "year": "2014",
+      "title": "First 3G/4G spectrum auction (~US$1.12B)",
+      "text": "Kick-starts mass mobile broadband; national LTE/3G roll-out follows.",
+      "sourceUrl": "https://www.reuters.com/article/business/media-telecom/pakistan-raises-11-billion-from-first-3g-4g-auction-idUSL3N0NF3SE",
+      "side": "left"
+    },
+    {
+      "year": "2017",
+      "title": "AAE-1 begins carrying traffic",
+      "text": "25,000 km Asia–Africa–Europe system adds another international path via Karachi.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/AAE-1",
+      "side": "right"
+    },
+    {
+      "year": "2022",
+      "title": "PEACE Pakistan–Egypt & Mediterranean segments live",
+      "text": "Low-latency Karachi ↔ Marseille route enters service, diversifying international capacity.",
+      "sourceUrl": "https://www.submarinenetworks.com/en/systems/asia-europe-africa/peace",
+      "side": "left"
+    },
+    {
+      "year": "2024",
+      "title": "142.3m broadband subs; 91% cellular coverage",
+      "text": "PTA: 138.7m mobile broadband; 3.6m fixed; ~81% 4G population coverage.",
+      "sourceUrl": "https://www.app.com.pk/national/pta-annual-report-telecom-revenues-reach-record-rs-955-bln-in-fy-2023-24/",
+      "side": "right"
+    },
+    {
+      "year": "2025",
+      "title": "116m internet users; 45.7% penetration",
+      "text": "DataReportal 2025 estimates; Ookla medians: ~20.89 Mbps mobile, ~15.53 Mbps fixed.",
+      "sourceUrl": "https://datareportal.com/reports/digital-2025-pakistan",
+      "side": "left"
+    }
+  ],
+
+  "facts": [
+    { "label": "Mobile broadband subscribers (Sep 2024)", "value": 138.7, "unit": "m", "note": "PTA Annual Report FY23–24" },
+    { "label": "Fixed broadband subscribers (Sep 2024)", "value": 3.6, "unit": "m", "note": "PTA Annual Report FY23–24" },
+    { "label": "Cellular population coverage", "value": 91, "unit": "%", "note": "PTA FY23–24" },
+    { "label": "4G population coverage", "value": 81, "unit": "%", "note": "PTA FY23–24" },
+    { "label": "Operational cell sites (Jun 2024)", "value": 55777, "unit": "", "note": "95.5% 4G-capable (PTA)" },
+    { "label": "Telecom revenues (FY 2023–24)", "value": 955, "unit": "Rs bn", "note": "PTA FY23–24" }
+  ],
+
+  "metrics": {
+    "usersOverTime": [
+      { "year": 2005, "usersMillions": 1.5 },
+      { "year": 2010, "usersMillions": 10.0 },
+      { "year": 2014, "usersMillions": 18.0 },
+      { "year": 2017, "usersMillions": 37.0 },
+      { "year": 2020, "usersMillions": 76.38 },
+      { "year": 2023, "usersMillions": 87.35 },
+      { "year": 2024, "usersMillions": 111.0 },
+      { "year": 2025, "usersMillions": 116.0 }
+    ],
+    "accessMix2024": { "mobileBroadband": 138.7, "fixedBroadband": 3.6 },
+    "coverage2024": { "cellular": 91, "fourG": 81 }
+  },
+
+  "outlook": {
+    "points": [
+      { "text": "Universal Service Fund–backed rural fibre and 4G expansion remain key to closing the urban–rural access gap." },
+      { "text": "Local IXPs and CDN caches reduce latency and international transit costs for video, gaming, and e-learning." },
+      { "text": "Fixed-wireless access (FWA) and FTTH will grow in dense cities where spectrum and rights-of-way are priced sensibly." },
+      { "text": "SME digitisation needs simple bundles—connectivity + payments + basic cloud—with hands-on onboarding and support." },
+      { "text": "LEO satellite backhaul can complement terrestrial links in remote districts and during outages/disasters." },
+      { "text": "Cybersecurity, data-protection, and child-safety enforcement must scale alongside rising connectivity." },
+      { "text": "e-Government (ID, payments, health, land records) can pull demand if uptime, local-language support, and UX improve." },
+      { "text": "5G monetisation hinges on enterprise/IoT and FWA use-cases more than handset upgrades; spectrum policy will shape rollout." }
+    ],
+    "image": {
+      "src": "assets/images/submarine-cable-map.png",
+      "alt": "PEACE cable route (regional map)",
+      "credit": "TeleGeography — Submarine Cable Map"
+    }
+  },
+
+  "sources": [
+    { "label": "DataReportal — Digital 2025: Pakistan", "url": "https://datareportal.com/reports/digital-2025-pakistan", "comma": [", "] },
+    { "label": "PTA / APP — Annual Report 2023–24 highlights", "url": "https://www.app.com.pk/national/pta-annual-report-telecom-revenues-reach-record-rs-955-bln-in-fy-2023-24/", "comma": [", "] },
+    { "label": "Reuters — Pakistan raises $1.12b in 2014 auction", "url": "https://www.reuters.com/article/business/media-telecom/pakistan-raises-11-billion-from-first-3g-4g-auction-idUSL3N0NF3SE", "comma": [", "] },
+    { "label": "Submarine Networks — SMW4, IMEWE, PEACE", "url": "https://www.submarinenetworks.com/en/systems/asia-europe-africa/", "comma": [] }
+  ],
+
+  
+  "footer": {
+    "legal": "© 2025 Connected Pakistan — Design overview. Replace or refine any placeholder text with your cited research for submission."
+  }
+}
