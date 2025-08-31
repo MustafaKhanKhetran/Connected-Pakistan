@@ -1,6 +1,4 @@
 {
- 
-
   "nav": {
     "links": [
       { "label": "About", "href": "about.html" },
@@ -8,236 +6,207 @@
       { "label": "Milestones", "href": "milestones.html" }
     ]
   },
+
   "hero": {
     "kicker": "Milestones",
     "titleTop": "From First Pilots",
-    "titleBottom": "to a Digital Nation",
-    "lead": "A compact timeline of pivotal achievements that shaped connectivity, policy, and digital adoption — captured through key years, categories, and their impact.",
+    "titleBottom": "to a Digital Pakistan",
+    "lead": "A compact timeline of pivotal achievements in Pakistan’s connectivity, policy, and digital adoption — captured through key years, categories, and their impact.",
     "image": {
       "src": "assets/milestones-hero.jpg",
-      "alt": "Collage of towers, fiber spools, and device silhouettes",
+      "alt": "Collage of Pakistani telecom towers, fiber spools, and device silhouettes",
       "credit": "Illustration: Connected Pakistan"
     }
   },
 
   "kpis": [
-    { "value": 21, "unit": "yrs", "label": "Years tracked" },
-    { "value": 48, "unit": "", "label": "Major milestones" },
-    { "value": 5, "unit": "", "label": "Distinct categories" },
-    { "value": 2.3, "unit": "/yr", "label": "Avg pace" }
+    { "value": 20, "unit": "yrs", "label": "Years tracked" },
+    { "value": 36, "unit": "", "label": "Major milestones" },
+    { "value": 6,  "unit": "", "label": "Distinct categories" },
+    { "value": 1.8, "unit": "/yr", "label": "Avg pace" }
   ],
 
   "milestones": [
     {
-      "year": 2006,
+      "year": 2005,
       "side": "left",
-      "title": "National IX Testbed",
-      "text": "First neutral internet exchange pilot linking universities and ISPs to improve local routing.",
-      "sourceUrl": "https://www.itu.int/"
+      "title": "PTCL Privatization",
+      "text": "Etisalat acquires a strategic stake in PTCL, catalyzing sector restructuring and new investment.",
+      "sourceUrl": "https://www.pta.gov.pk/"
     },
     {
-      "year": 2009,
+      "year": 2007,
       "side": "right",
-      "title": "e-Gov Identity APIs (v1)",
-      "text": "Early programmatic access for verification use-cases in banking and telecom onboarding.",
-      "sourceUrl": "https://www.worldbank.org/"
+      "title": "Early Broadband & WiMAX Trials",
+      "text": "Fixed broadband expands beyond dial-up; WiMAX pilots show wireless last-mile potential in cities.",
+      "sourceUrl": "https://www.pta.gov.pk/"
     },
     {
-      "year": 2012,
+      "year": 2014,
       "side": "left",
-      "title": "Universal Service 2.0",
-      "text": "Reoriented subsidies toward fiber backhaul and school connectivity in remote districts.",
-      "sourceUrl": "https://www.itu.int/"
+      "title": "3G/4G Spectrum Auction",
+      "text": "Pakistan auctions 3G and 4G licenses, unlocking mobile broadband adoption at national scale.",
+      "sourceUrl": "https://www.pta.gov.pk/"
     },
     {
       "year": 2015,
       "side": "right",
-      "title": "4G Nationwide Expansion",
-      "text": "Commercial LTE rollouts accelerate smartphone adoption and mobile broadband usage.",
-      "sourceUrl": "https://www.gsma.com/"
+      "title": "USF Fiber & Rural Coverage Push",
+      "text": "Universal Service Fund accelerates fiber backhaul and underserved area coverage contracts.",
+      "sourceUrl": "https://usf.org.pk/"
     },
     {
-      "year": 2017,
+      "year": 2016,
       "side": "left",
-      "title": "Open Data Portal",
-      "text": "Government datasets released under a permissive license to spur civic tech and research.",
-      "sourceUrl": "https://data.gov/"
+      "title": "LTE Expansion After Market Consolidation",
+      "text": "Operator consolidation (e.g., Jazz-Warid) speeds LTE rollouts and improves spectrum utilization.",
+      "sourceUrl": "https://www.pta.gov.pk/"
+    },
+    {
+      "year": 2018,
+      "side": "right",
+      "title": "DIRBS Device Registration",
+      "text": "PTA’s Device Identification Registration & Blocking System curbs grey imports and improves QoS.",
+      "sourceUrl": "https://dirbs.pta.gov.pk/"
     },
     {
       "year": 2019,
-      "side": "right",
-      "title": "Digital Payments Interop",
-      "text": "Real-time rails allow wallet-to-bank transfers and merchant QR acceptance at scale.",
-      "sourceUrl": "https://www.bis.org/"
+      "side": "left",
+      "title": "Digital Pakistan Vision",
+      "text": "Federal initiative frames whole-of-government digitization and citizen-centric public services.",
+      "sourceUrl": "https://moit.gov.pk/"
     },
     {
       "year": 2020,
-      "side": "left",
-      "title": "Satellite Gateways Authorized",
-      "text": "High-throughput satellite gateways permitted for backhaul and hard-to-reach communities.",
-      "sourceUrl": "https://www.itu.int/"
+      "side": "right",
+      "title": "Tele-Education & e-Health Push",
+      "text": "Pandemic response fast-tracks TeleSchool, remote services, and network upgrades for resiliency.",
+      "sourceUrl": "https://www.moitt.gov.pk/"
     },
     {
       "year": 2021,
-      "side": "right",
-      "title": "Cloud First Policy",
-      "text": "Guidelines for public workloads with security baselines and domestic region preference.",
-      "sourceUrl": "https://www.iso.org/"
+      "side": "left",
+      "title": "Raast (Phase I)",
+      "text": "SBP launches instant payment rails for bulk & government payments; foundations for P2P go live.",
+      "sourceUrl": "https://www.sbp.org.pk/"
     },
     {
       "year": 2022,
-      "side": "left",
-      "title": "Open Banking Sandbox",
-      "text": "Fintechs test secure data-sharing with banks for new credit, PFM, and payments use-cases.",
-      "sourceUrl": "https://www.fsb.org/"
+      "side": "right",
+      "title": "Raast P2P Live",
+      "text": "Person-to-person transfers become instant and low-cost across banks and wallets, boosting usage.",
+      "sourceUrl": "https://www.sbp.org.pk/"
     },
     {
       "year": 2023,
-      "side": "right",
-      "title": "Gov Services Super-App",
-      "text": "A unified mobile entry point for licensing, certificates, bills, and case tracking.",
-      "sourceUrl": "https://www.unescap.org/"
+      "side": "left",
+      "title": "Fiberization & Redundancy",
+      "text": "Operators expand metro and long-haul fiber; additional coastal routes improve international resiliency.",
+      "sourceUrl": "https://www.pta.gov.pk/"
     },
     {
       "year": 2024,
-      "side": "left",
-      "title": "5G Pilot Corridors",
-      "text": "City corridors designated for 5G trials in logistics hubs and industrial parks.",
-      "sourceUrl": "https://www.3gpp.org/"
+      "side": "right",
+      "title": "5G Trial Corridors",
+      "text": "Designated urban corridors and campuses host multi-vendor 5G trials for industry and logistics.",
+      "sourceUrl": "https://www.pta.gov.pk/"
     },
     {
       "year": 2025,
-      "side": "right",
-      "title": "AI Compute Cluster (Public Research)",
-      "text": "Shared national cluster prioritizes research access and public-interest datasets.",
-      "sourceUrl": "https://www.oecd.ai/"
+      "side": "left",
+      "title": "Gov Cloud & Data Exchange (Early Phases)",
+      "text": "Foundational cloud services and secure data-exchange pilots support paperless, API-first public services.",
+      "sourceUrl": "https://moit.gov.pk/"
     }
   ],
 
   "facts": [
-    { "value": 3.2, "unit": "M km", "label": "Fiber-km lit (est.)", "note": "Backbone + metro + access" },
-    { "value": 92, "unit": "%", "label": "4G population coverage", "note": "Outdoor footprint" },
-    { "value": 68, "unit": "%", "label": "Adults w/ digital ID", "note": "Eligible adult population" },
-    { "value": 55, "unit": "%", "label": "Digital payments usage", "note": "Adults making a digital payment in past year" },
-    { "value": 180, "unit": "ms", "label": "Median intl latency", "note": "To major clouds" },
-    { "value": 35, "unit": "%", "label": "Rural households online", "note": "Household internet access" }
+    { "value": 2.1, "unit": "M km", "label": "Fiber-km lit (est.)", "note": "Backbone + metro + access (illustrative)" },
+    { "value": 88,  "unit": "%",   "label": "4G population coverage", "note": "Outdoor footprint (illustrative)" },
+    { "value": 95,  "unit": "%",   "label": "Adults w/ digital ID", "note": "NADRA coverage (illustrative)" },
+    { "value": 38,  "unit": "%",   "label": "Adults using digital payments", "note": "Past-year usage (illustrative)" },
+    { "value": 160, "unit": "ms",  "label": "Median intl latency", "note": "To major clouds (illustrative)" },
+    { "value": 36,  "unit": "%",   "label": "Rural households online", "note": "Household internet access (illustrative)" }
   ],
 
   "cards": [
-    {
-      "year": 2016,
-      "category": "Access",
-      "title": "Community fiber cooperatives trialed in two provinces.",
-      "tags": ["fiber", "co-op", "rural"]
-    },
-    {
-      "year": 2018,
-      "category": "Policy",
-      "title": "Spectrum roadmap published with three-year visibility.",
-      "tags": ["spectrum", "transparency"]
-    },
-    {
-      "year": 2019,
-      "category": "Market",
-      "title": "National QR standard launched; small merchants onboarded.",
-      "tags": ["QR", "SME", "payments"]
-    },
-    {
-      "year": 2020,
-      "category": "Innovation",
-      "title": "Gov cloud region goes live with sovereign controls.",
-      "tags": ["cloud", "security"]
-    },
-    {
-      "year": 2021,
-      "category": "Inclusion",
-      "title": "Affordable smartphone program with installment support.",
-      "tags": ["devices", "affordability"]
-    },
-    {
-      "year": 2022,
-      "category": "Skills",
-      "title": "School connectivity + digital literacy packs for teachers.",
-      "tags": ["education", "skills"]
-    },
-    {
-      "year": 2023,
-      "category": "Resilience",
-      "title": "Redundant coastal routes added to mitigate outages.",
-      "tags": ["resilience", "cable"]
-    },
-    {
-      "year": 2024,
-      "category": "5G",
-      "title": "Private 5G trials in two industrial parks.",
-      "tags": ["5G", "industry"]
-    },
-    {
-      "year": 2025,
-      "category": "AI",
-      "title": "Public research cluster seeds local AI applications.",
-      "tags": ["AI", "compute"]
-    }
+    { "year": 2010, "category": "Access",      "title": "Metro fiber rings extended in major cities.", "tags": ["fiber", "metro"] },
+    { "year": 2011, "category": "Policy",      "title": "National telecom policy refresh sets QoS and competition rules.", "tags": ["policy"] },
+    { "year": 2013, "category": "Market",      "title": "Smartphone imports rise; entry-level Android ignites data demand.", "tags": ["devices"] },
+    { "year": 2016, "category": "Innovation",  "title": "Branchless banking APIs widen agent and wallet ecosystems.", "tags": ["fintech"] },
+    { "year": 2017, "category": "Inclusion",   "title": "USF projects connect schools and underserved tehsils.", "tags": ["USF", "schools"] },
+    { "year": 2018, "category": "Security",    "title": "DIRBS cuts cloned/illegal IMEIs, improving network integrity.", "tags": ["DIRBS"] },
+    { "year": 2020, "category": "Resilience",  "title": "CDNs & caches scaled to meet stay-at-home traffic.", "tags": ["CDN"] },
+    { "year": 2021, "category": "Payments",    "title": "Raast rails begin settling high-volume transactions.", "tags": ["Raast"] },
+    { "year": 2022, "category": "Skills",      "title": "Digital skills bootcamps expand remote work readiness.", "tags": ["skills"] },
+    { "year": 2023, "category": "Backbone",    "title": "Additional terrestrial links add route diversity.", "tags": ["backbone"] },
+    { "year": 2024, "category": "5G",          "title": "Private 5G pilots in industry parks and campuses.", "tags": ["5G"] },
+    { "year": 2025, "category": "GovTech",     "title": "Paperless workflows and e-sign pilots in ministries.", "tags": ["gov", "cloud"] }
   ],
 
   "charts": {
     "milestonesPerYear": [
-      { "year": 2006, "count": 1 },
-      { "year": 2009, "count": 1 },
-      { "year": 2012, "count": 1 },
-      { "year": 2015, "count": 2 },
-      { "year": 2017, "count": 2 },
-      { "year": 2019, "count": 3 },
+      { "year": 2005, "count": 1 },
+      { "year": 2007, "count": 1 },
+      { "year": 2010, "count": 1 },
+      { "year": 2011, "count": 1 },
+      { "year": 2013, "count": 1 },
+      { "year": 2014, "count": 1 },
+      { "year": 2015, "count": 1 },
+      { "year": 2016, "count": 2 },
+      { "year": 2017, "count": 1 },
+      { "year": 2018, "count": 2 },
+      { "year": 2019, "count": 1 },
       { "year": 2020, "count": 2 },
       { "year": 2021, "count": 2 },
-      { "year": 2022, "count": 3 },
-      { "year": 2023, "count": 3 },
-      { "year": 2024, "count": 3 },
+      { "year": 2022, "count": 2 },
+      { "year": 2023, "count": 2 },
+      { "year": 2024, "count": 2 },
       { "year": 2025, "count": 2 }
     ],
     "milestonesByCategory": [
-      { "category": "Policy", "count": 9 },
-      { "category": "Access", "count": 10 },
-      { "category": "Market", "count": 8 },
-      { "category": "Innovation", "count": 12 },
-      { "category": "Inclusion", "count": 9 }
+      { "category": "Policy",       "count": 6 },
+      { "category": "Access",       "count": 6 },
+      { "category": "Market",       "count": 4 },
+      { "category": "Innovation",   "count": 6 },
+      { "category": "Inclusion",    "count": 5 },
+      { "category": "Payments",     "count": 9 }
     ],
     "impactByEra": [
-      { "era": "2006–2009", "infrastructure": 18, "adoption": 10, "services": 6 },
-      { "era": "2010–2014", "infrastructure": 24, "adoption": 14, "services": 10 },
-      { "era": "2015–2019", "infrastructure": 34, "adoption": 26, "services": 20 },
-      { "era": "2020–2025", "infrastructure": 42, "adoption": 38, "services": 34 }
+      { "era": "2005–2009", "infrastructure": 12, "adoption": 6,  "services": 4 },
+      { "era": "2010–2014", "infrastructure": 18, "adoption": 12, "services": 8 },
+      { "era": "2015–2019", "infrastructure": 28, "adoption": 22, "services": 18 },
+      { "era": "2020–2025", "infrastructure": 40, "adoption": 36, "services": 34 }
     ],
     "capabilityRadar": {
-      "labels": ["Policy", "Infrastructure", "Skills", "Innovation", "Inclusion"],
-      "scores": [78, 70, 55, 62, 58]
+      "labels": ["Policy", "Infrastructure", "Skills", "Innovation", "Inclusion", "Payments"],
+      "scores": [72, 68, 54, 60, 58, 66]
     }
   },
 
   "outlook": {
     "points": [
-      { "text": "Scale private 5G and neutral host models for logistics and manufacturing." },
-      { "text": "Target sub-100 ms median latency to major clouds via diverse routes." },
-      { "text": "Expand device affordability + school connectivity to boost rural usage." },
-      { "text": "Operationalize open banking and verifiable credentials for SMEs." }
+      { "text": "Scale private 5G, neutral-host models, and edge for industry." },
+      { "text": "Reduce median cloud latency via diverse terrestrial and subsea routes." },
+      { "text": "Extend device affordability, school connectivity, and women’s digital inclusion." },
+      { "text": "Broaden open APIs for gov data exchange, payments, and identity." }
     ],
     "image": {
       "src": "assets/images/5G-Towers.jpg",
-      "alt": "Technician checking 5G small cell in an industrial facility",
+      "alt": "Technician checking small cell on a tower in Pakistan",
       "credit": "Photo: Unsplash / CC"
     }
   },
 
   "sources": [
-    { "label": "GSMA Mobile Economy", "url": "https://www.gsma.com/" },
-    { "label": "ITU – Measuring Digital Development", "url": "https://www.itu.int/" },
-    { "label": "World Bank – GovTech & ID4D", "url": "https://www.worldbank.org/" },
-    { "label": "BIS – Payments Interoperability", "url": "https://www.bis.org/" },
-    { "label": "OECD.AI – Policy Observatory", "url": "https://oecd.ai/" }
+    { "label": "PTA — Pakistan Telecommunication Authority", "url": "https://www.pta.gov.pk/" },
+    { "label": "USF — Universal Service Fund", "url": "https://usf.org.pk/" },
+    { "label": "SBP — State Bank of Pakistan (Raast)", "url": "https://www.sbp.org.pk/" },
+    { "label": "MoITT — Ministry of IT & Telecom", "url": "https://moit.gov.pk/" },
+    { "label": "GSMA — Mobile Economy (Pakistan highlights)", "url": "https://www.gsma.com/" }
   ],
 
   "footer": {
-    "legal": "© 2025 Connected Pakistan · Data compiled for demo; figures illustrative."
-    }
-
+    "legal": "© 2025 Connected Pakistan · Demo dataset; figures illustrative for visualization."
+  }
 }

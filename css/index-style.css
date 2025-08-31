@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700;800&display=swap");
 
-/* ======= Tunables (edit these to tweak layout quickly) ======= */
 :root {
   --hero-max: 980px; /* max width of text block */
   --hero-top-offset: 96px; /* space from top (below navbar) to hero */

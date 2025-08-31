@@ -454,7 +454,6 @@
     ctx.fillText(msg || "No data", width / 2, height / 2);
   }
 })();
-// HISTORY footer wiring (append-only)
 document.addEventListener('DOMContentLoaded', () => {
   const mount = document.getElementById('content');
   if (!mount) return;
@@ -464,7 +463,6 @@ document.addEventListener('DOMContentLoaded', () => {
     once.disconnect();
 
     try {
-      // Pull history data for nav + (optional) sources
       const hist = await fetch('data/history.json', { cache: 'no-store' }).then(r => r.json());
 
       // Footer nav: use nav.links if present (or fallback to common pages)

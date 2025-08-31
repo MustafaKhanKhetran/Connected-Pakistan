@@ -19,6 +19,9 @@
   /* section padding tokens */
   --sec-pad: clamp(32px, 6vw, 72px);
   --sec-pad-sm: clamp(40px, 9vw, 84px);
+
+  --tint-1: #faf8f6;
+  --tint-2: #f6f3ef;
 }
 
 /* =========================
@@ -670,16 +673,14 @@ a {
     grid-template-columns: 1fr;
   }
 }
-/* =========================
-   Scroll-trigger (CSS-only where supported)
-   ========================= */
-@media (prefers-reduced-motion: reduce) {
-  .cp-section * {
-    animation: none !important;
-    transition: none !important;
-  }
-}
+
 @supports (animation-timeline: view()) {
+  .cp-section {
+    animation-timeline: --sec;
+    animation-timeline: block;
+  }
+
+  /* optional: same background fade used on About */
   .cp-section {
     background: linear-gradient(
       180deg,
@@ -688,18 +689,27 @@ a {
       var(--tint-2) 100%
     );
   }
+
+  /* Headings */
   .cp-section .cp-h2,
   .cp-section .cp-h3 {
     animation: rise 0.8s ease-out both;
     animation-timeline: --sec;
   }
+
+  /* Content blocks — include Milestones-specific classes */
   .cp-card,
-  .cp-row,
-  .cp-milestone,
-  .cp-chart-card {
+  .cp-tl,            /* timeline list item */
+  .cp-tl-card,       /* timeline card */
+  .cp-statcard,      /* facts tiles */
+  .cp-chart-card,    /* chart figures */
+  .cp-hero-stat,     /* KPI tiles in hero */
+  .cp-outlook-fig {
+    /* outlook figure */
     animation: fadeSlide 0.9s ease-out both;
     animation-timeline: --sec;
   }
+
   @keyframes rise {
     from {
       opacity: 0;
